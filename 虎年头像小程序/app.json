@@ -1,0 +1,35 @@
+{
+    "pages": [
+        "pages/editor/editor",
+        "pages/save/save-done",
+        "pages/link/link",
+        "pages/music/music",
+        "pages/crop/crop"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "国庆头像",
+        "navigationBarBackgroundColor": "#FFF",
+        "backgroundColor": "#FFF"
+    },
+    "tabBar": {
+        "color": "#a9b7b7",
+        "selectedColor": "#f73e1f",
+        "borderStyle": "black",
+        "list": [
+            {
+                "text": "首页",
+                "pagePath": "pages/editor/editor",
+                "iconPath": "static/image/icon/home.png",
+                "selectedIconPath": "static/image/icon/home1.png"
+            },
+            {
+                "text": "更多",
+                "pagePath": "pages/link/link",
+                "iconPath": "static/image/icon/more.png",
+                "selectedIconPath": "static/image/icon/more1.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}
